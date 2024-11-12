@@ -1,0 +1,54 @@
+name: weather_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  intl: ^0.18.0 
+  modal_bottom_sheet: ^3.0.0
+  provider: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/clear.png
+    - assets/cloud.png
+    - assets/cloudy.png
+    - assets/fog.png
+    - assets/heavycloud.png
+    - assets/heavyrain.png
+    - assets/humidity.png
+    - assets/lightdrizzle.png
+    - assets/lightrain.png
+    - assets/lightrainshower.png
+    - assets/menu.png
+    - assets/mist.png
+    - assets/moderateorheavyrainshower.png
+    - assets/moderateorheavyrainwiththunder.png
+    - assets/moderaterain.png
+    - assets/moderaterainattimes.png
+    - assets/overcast.png
+    - assets/partlycloudy.png
+    - assets/patchylightdrizzle.png
+    - assets/patchylightrain.png
+    - assets/patchylightrainwiththunder.png
+    - assets/patchyrainnearby.png
+    - assets/pin.png
+    - assets/profile.png
+    - assets/sunny.png
+    - assets/thunderyoutbreaksinnearby.png
+    - assets/windspeed.png
