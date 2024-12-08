@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:weather_app/Page/EmailPage/email.dart';
 import 'package:weather_app/Page/Homepage/home_page.dart';
+import 'package:weather_app/Page/Loginpage/signin.dart';
 import 'package:weather_app/providers/weather_provider.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Flutter Demo',
-        home: HomePage(), // Show EmailScreen on app start
+        home: SignInPage(), // Show EmailScreen on app start
         debugShowCheckedModeBanner: false,
       ),
     );
